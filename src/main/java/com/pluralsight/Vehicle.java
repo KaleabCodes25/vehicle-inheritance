@@ -10,19 +10,22 @@ public class Vehicle {
 
 
     public void startEngine(){
-        System.out.println("Starting engine!!");
+        System.out.println(" 1.2.3 Start engine!!");
 
     }
     public void stopEngine(){
         System.out.println("Stop engine!!");
+        topSpeed = 0;
 
     }
     public void accelerate(){
         System.out.println("Accelerate ");
+        topSpeed += 10;
 
     }
     public void brake(){
-
+        System.out.println("Slowing down!!");
+        topSpeed -= 5;
     }
 
     public String getModel() {
